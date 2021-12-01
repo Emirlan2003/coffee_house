@@ -1,0 +1,93 @@
+.grandBlock{
+    margin-top: -50px;
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+}
+.cardMainBlock{
+    text-align: center;
+}
+.cardMainBlock img{
+    margin-top: 30px;
+    height: 70px;
+}
+.cardBlock1{
+    height: 270px;
+    width: 420px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 15px;
+   position: absolute;
+   left: 410px;
+   top: 300px;
+   z-index: 2;
+   color: grey;
+}
+.cardText{
+    margin-top: 30px;
+    font-size: 15px;
+}
+.cardText2{
+    margin-left: -275px;
+}
+.cardNumber{
+    height: 40px;
+    width: 390px;
+    margin-top: 20px;
+}
+.cardText3{
+    margin-top: 50px;
+    margin-left: -250px;
+    font-size: 15px;
+}
+.childBlock{
+    margin-top: 10px;
+    margin-left: -230px;
+}
+.cardInput1{
+    height: 40px;
+    width: 70px;
+    text-align: center;
+    margin-right: 5px;
+}
+.cardInput2{
+    margin-left: 5px;
+    height: 40px;
+    width: 70px;
+    text-align: center;
+}
+.cardBlock2{
+    height: 270px;
+    width: 420px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 15px;
+    position: absolute;
+    top: 300px;
+    left: 580px;
+}
+.cvv{
+    height: 40px;
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 270px;
+    text-align: center;
+}
+.line2{
+    height: 50px;
+    background-color: rgb(87, 86, 86);
+    margin-top: 30px;
+}
+.mainBtn{
+    width: 350px;
+    height: 45px;
+    position: absolute;
+    top: 600px;
+    left: 520px;
+    border: none;
+    color: white;
+    background-color: rgb(145, 202, 29);
+    cursor: pointer;
+}
+.paymentBlock{
+    margin-top: 50px;
+}

@@ -1,0 +1,59 @@
+.listMainBlock{
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+}
+.our{
+    color: burlywood;
+    margin-right: 15px;
+}
+.menu{
+    color: white;
+}
+.listBlock{
+    display: flex;
+}
+.productsBlock{
+    margin: 0 auto;
+    width: 78%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.searchBlock{
+    margin-left: 220px;
+    margin-bottom: 50px;
+}
+.search{
+    height: 40px;
+    width: 250px;
+    border: none;
+}
+.radioInput{
+    position: absolute;
+    right: 0px;
+    top: 1700px;
+    width: 10%;
+}
+@media all and (max-width: 1250px){
+    .radioInput{
+        display: none;
+    }
+}
+@media all and (max-width: 1080px){
+    .searchBlock{
+        margin-left: 100px;
+    }
+    .search{
+        width: 150px;
+        height: 20px;
+    }
+}
+@media all and (max-width: 500px){
+    .listBlock{
+        font-size: 10px;
+    }
+    .search{
+        width: 50px;
+        height: 10px;
+    }
+}

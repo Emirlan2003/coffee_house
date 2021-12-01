@@ -1,0 +1,16 @@
+.menuMainBlock{
+    background: url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvZmZlZSUyMHNob3B8ZW58MHx8MHx8&w=1000&q=80');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+.menuBlock img{
+    height: 600px;
+}
+.menuBlock{
+    margin: 0 auto;
+    display: flex;
+    height: 600px;
+    width: 680px;
+    overflow-y: scroll;
+}

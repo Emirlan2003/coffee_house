@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.aboutBlock{
+    width: 100%;
+}
+.about{
+    color: burlywood;
+    margin-right: 15px;
+}
+.aboutChildBlock{
+    display: flex;
+    justify-content: center;
+}
+.us{
+    color: white;
+}
+.aboutMainBlock2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.aboutMainBlock2 img{
+   height: 350px;
+}
+.aboutBlock2{
+    background-color: rgb(29, 38, 46);
+    color: white;
+}
+.aboutBlock2 h1{
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.aboutBlock2 p{
+    font-size: 1rem;
+    margin-top: 30px;
+   max-width: 400px;
+   font-family: 'Poppins', sans-serif;
+   margin-left: 30px;
+}
+@media all and (max-width: 1070px){
+    .aboutBlock2 h1{
+        font-size: 1rem;
+    }
+    .aboutBlock2 p{
+        font-size: 15px;
+    }
+}
+@media all and (max-width: 920px){
+     .aboutBlock{
+         margin-top: -250px;
+     }
+}
+@media all and (max-width: 840px){
+    .aboutMainBlock2 img{
+        width: 300px;
+    }
+}
+@media all and (max-width: 620px){
+    .aboutBlock2 p{
+        font-size: 7px;
+    }
+    .aboutBlock2 h1{
+        font-size: 15px;
+    }
+    .aboutMainBlock2 img{
+        height: 200px;
+    }
+}
+@media all and (max-width: 500px){
+    .aboutBlock2 p{
+        font-size: 4px;
+    }
+    .aboutBlock2 h1{
+        font-size: 10px;
+    }
+    .aboutChildBlock{
+        font-size: 10px;
+    }
+}
+@media all and (max-width: 400px){
+    .aboutBlock2 p{
+        font-size: 2px;
+    }
+    .aboutBlock2 h1{
+        font-size: 5px;
+    }
+}

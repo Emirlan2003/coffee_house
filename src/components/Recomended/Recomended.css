@@ -1,0 +1,69 @@
+.recH1{
+    color: white;
+    margin-right: 15px;
+}
+.recH2{
+    color: burlywood;
+}
+.mainRecBlock{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.childRecBlock{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.recBlock1{
+    width: 18%;
+    border: 1px solid grey;
+    margin: 0 5%;
+    text-align: center;
+}
+.recBlock2{
+    width: 18%;
+    border: 1px solid grey;
+    margin: 0 5%;
+    text-align: center;
+}
+.recBlock3{
+    width: 18%;
+    border: 1px solid grey;
+    margin: 0 5%;
+    text-align: center;
+}
+.recBlock1 img{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.recBlock2 img{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.recBlock3 img{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+@media all and (max-width: 1000px){
+    .recImg{
+        height: 120px;
+    }
+}
+@media all and (max-width: 500px){
+    .mainRecBlock{
+        font-size: 10px;
+    }
+    .recBlock1 img{
+        width: 50px;
+    }
+    .recBlock2 img{
+        width: 50px;
+    }
+    .recBlock3 img{
+        width: 50px;
+    }
+    .recIcons{
+        display: none;
+    }
+}

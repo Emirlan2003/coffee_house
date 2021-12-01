@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.orderMainBlock{
+    display: flex;
+    justify-content: center;
+}
+.orderBlock{
+    width: 45%;
+   color: white;
+}
+.mainInput{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.radio{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.orderBlock h1{
+    color: orange;
+}
+.orderBlock button{
+text-decoration: none;
+  display: inline-block;
+  margin: 5px auto;
+  padding: 10px 30px;
+  position: relative;
+  border: 2px solid orange;
+  color: orange;
+  font-family: 'Montserrat', sans-serif;
+  transition: .4s;
+  cursor: pointer;
+  margin-left: 220px;
+}
+.orderBlock button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: .4s;
+}
+.orderBlock button:hover:after {
+  border-color: orange;
+  width: calc(100% - 10px);
+  height: calc(100% + 10px);
+}
+.orderBlock div{
+  font-family: 'Poppins', sans-serif;
+}

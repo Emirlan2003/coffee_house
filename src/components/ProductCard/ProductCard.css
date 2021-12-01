@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+.cardBlock{
+    width: 23%;
+    height: 24%;
+    margin: 30px 55px;
+    border: 1px solid grey;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    position: relative;
+}
+.cardBlock img{
+    margin: 10px;
+    width: 93%;
+    height: 170px;
+}
+.cardBlock:hover{
+    background-color: white;
+    transition: 0.3s linear;
+    cursor: pointer;
+    color: black;
+}
+.iconsFavorite{
+    display: flex;
+    position: absolute;
+    bottom: 2px;
+    right: 3px;
+}
+.cardBlock span{
+    position: absolute;
+    left: 5px;
+    top: 222px;
+}
+@media all and (max-width: 740px){
+   .cardBlock img{
+       height: 100px;
+   }
+   .iconsFavorite{
+       display: none;
+   }
+   .cardBlock span{
+       display: none;
+   }
+}
+@media all and (max-width: 600px){
+    .cardBlock img{
+        width: 60%;
+    }
+    .cardBlock{
+        font-size: 7px;
+    }
+}
+@media all and (max-width: 550px){
+    .cardBlock{
+        width: 40%;
+    }
+}
+

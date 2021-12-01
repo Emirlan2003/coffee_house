@@ -1,0 +1,23 @@
+.checkBlock{
+    background-color: white;
+    text-align: center;
+    width: 350px;
+    border-radius: 20px;
+    position: relative;
+}
+.mainCheck{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.checkBlock button{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    background-color: tomato;
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
